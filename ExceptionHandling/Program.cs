@@ -6,7 +6,16 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Console.WriteLine("Hello World!");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
         }
+        
     }
 }
