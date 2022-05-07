@@ -29,7 +29,7 @@ namespace DelegateProj
             //Employee.Pramote(empList,del);
 
             //this is by lamda expression
-            //Employee.Pramote(empList, emp => emp.Experiance >= 5);
+            Employee.Pramote(empList, emp => emp.Experiance > 5);
 
             ////muticast deletgate part 1
             //MultiDelgate del1, del2, del3, del4;

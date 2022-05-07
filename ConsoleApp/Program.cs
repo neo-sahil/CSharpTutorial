@@ -43,6 +43,13 @@ namespace ConsoleApp
             obj1.print();
             obj2.print();
             obj3.print();
+
+            int a = 2, b=3;
+
+            var s = a & 1;
+            var s1 = b & 1;
+
+            Console.WriteLine("{0}, {1}", s, s1);
         }
     }
 }
